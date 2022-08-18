@@ -11,7 +11,7 @@ Script to change the maps of single target quests and anomaly investigations in 
 
 ## Ackowledgement
 
-The original script is [`ForceArenaQuest`](https://www.nexusmods.com/monsterhunterrise/mods/265) and the bulk of the work is done by the original author [dtlnor](https://github.com/dtlnor). I only added the support for anomaly investigations.
+The original script is [ForceArenaQuest](https://www.nexusmods.com/monsterhunterrise/mods/265) and the bulk of the work is done by the original author [dtlnor](https://github.com/dtlnor). I only added the support for anomaly investigations.
 
 ## Install
 
@@ -29,23 +29,23 @@ The original script is [`ForceArenaQuest`](https://www.nexusmods.com/monsterhunt
 
 可以将单怪任务和怪异调查的地图修改为斗技场/玉泉乡/塔之秘境的脚本。
 
-# 重要提示
+## 重要提示
 
 - 免责声明：此脚本会修改游戏文件，请备份好存档再使用。如有问题请后果自负；
 - 对于怪异调查，游戏会检查任务是否合法。将地图修改为斗技场类地图会被游戏视为非法任务，接任务界面会出现”此为违法篡改的任务，因而无法承接“的提示且一般情况下无法承接。勾选`Change Investigations`将会关闭合法性检查，允许修改任务的承接；
 - 一般情况下，完成一个怪异调查后游戏会返还一个同等条件但更高等级的任务。如果承接并完成了一个修改过地图的怪异调查，收到的新任务的地图会永久变成修改的地图。如果移除此脚本或取消勾选`Change Investigations`，这些任务都会因为是非法任务而无法承接；
 - 不建议在多人游戏里使用此脚本。然而根据经验，对于普通任务而言，如果所有参与者都打了此脚本并将普通任务修改为同一张地图，任务是可以正常进行的。如果有人没有打将本，一般会有人出生在虚空里或者出生在错误、没怪的地图里。对于怪异调查，只有任务承接者需要打脚本修改地图，其他人可以正常参与任务。注意完成后参与者有几率也收到一个修改过地图的非法任务。如果参与者没有打脚本的话他们是无法承接该任务的。在多人游戏中使用请后果自负。
 
-# 致谢
+## 致谢
 
-这个脚本基于 [dtlnor](https://github.com/dtlnor) 写的 [`ForceArenaQuest`](https://www.nexusmods.com/monsterhunterrise/mods/265). 绝大部分功能都是 dtlnor 实现的，我只加入了怪异调查的部分。
+这个脚本基于 [dtlnor](https://github.com/dtlnor) 写的 [ForceArenaQuest](https://www.nexusmods.com/monsterhunterrise/mods/265). 绝大部分功能都是 dtlnor 实现的，我只加入了怪异调查的部分。
 
-# 安装 
+## 安装 
 
 - 安装 [REFramework](https://www.nexusmods.com/monsterhunterrise/mods/26)；
 - 将 `reframework/` 这个文件夹放入游戏根目录（与 `MonsterHunterRise.exe` 同一路径下）。
 
-# 使用
+## 使用
 
 1. 在游戏中打开 REFramework 菜单（默认按键为 `insert`）；
 2. 选择希望修改的任务类别（普通任务、怪异调查或所有）；
