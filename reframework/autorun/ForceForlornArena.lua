@@ -1,5 +1,8 @@
 -- Credit to dtlnor: https://www.nexusmods.com/monsterhunterrise/mods/265
 
+local version = 1.0
+local name = "ForceForlornArena v" .. tostring(version)
+
 -- Target Maps
 local INFERNAL_MAP_NO = 9
 local ARENA_MAP_NO = 10
@@ -496,8 +499,6 @@ local function load_investigations()
 end
 
 -- Properties
-
-local name = "ForceForlornArena v3.0"
 
 local questStatus = "default"
 local investigationStatus = "default"
