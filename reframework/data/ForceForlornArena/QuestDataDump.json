@@ -1,0 +1,4116 @@
+{
+    "700000": {
+        "bossEmType": [
+            95,
+            81,
+            118,
+            0,
+            0,
+            71,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            15,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 150,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            1,
+            0
+        ],
+        "swapSetParam": [
+            12,
+            0
+        ]
+    },
+    "700001": {
+        "bossEmType": [
+            62,
+            44,
+            19,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 2,
+        "questIdx": 152,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700002": {
+        "bossEmType": [
+            108,
+            100,
+            134,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            1,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 153,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700003": {
+        "bossEmType": [
+            59,
+            60,
+            91,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 155,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700004": {
+        "bossEmType": [
+            346,
+            100,
+            60,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 13,
+        "questIdx": 157,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700005": {
+        "bossEmType": [
+            100,
+            71,
+            95,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 158,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700006": {
+        "bossEmType": [
+            60,
+            134,
+            108,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 219,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700007": {
+        "bossEmType": [
+            32,
+            57,
+            72,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 13,
+        "questIdx": 160,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700008": {
+        "bossEmType": [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 14,
+        "questIdx": 273,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700009": {
+        "bossEmType": [
+            2,
+            1852,
+            57,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 163,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700010": {
+        "bossEmType": [
+            107,
+            19,
+            59,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 166,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700011": {
+        "bossEmType": [
+            107,
+            1,
+            44,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 2,
+        "questIdx": 167,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700012": {
+        "bossEmType": [
+            62,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 14,
+        "questIdx": 239,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700013": {
+        "bossEmType": [
+            7,
+            27,
+            102,
+            0,
+            0,
+            24,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            15,
+            0
+        ],
+        "mapNo": 2,
+        "questIdx": 256,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            1,
+            0
+        ],
+        "swapSetParam": [
+            12,
+            0
+        ]
+    },
+    "700014": {
+        "bossEmType": [
+            37,
+            90,
+            1,
+            0,
+            0,
+            71,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            1,
+            14,
+            0,
+            0,
+            15,
+            0
+        ],
+        "mapNo": 12,
+        "questIdx": 174,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            1,
+            0
+        ],
+        "swapSetParam": [
+            12,
+            0
+        ]
+    },
+    "700015": {
+        "bossEmType": [
+            351,
+            1,
+            23,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 5,
+        "questIdx": 175,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700016": {
+        "bossEmType": [
+            94,
+            95,
+            24,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 2,
+        "questIdx": 178,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700017": {
+        "bossEmType": [
+            349,
+            1852,
+            25,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 13,
+        "questIdx": 179,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700018": {
+        "bossEmType": [
+            133,
+            81,
+            132,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 180,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700019": {
+        "bossEmType": [
+            351,
+            32,
+            23,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 5,
+        "questIdx": 181,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700020": {
+        "bossEmType": [
+            94,
+            32,
+            100,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 5,
+        "questIdx": 183,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700021": {
+        "bossEmType": [
+            133,
+            350,
+            62,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 13,
+        "questIdx": 184,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700022": {
+        "bossEmType": [
+            349,
+            98,
+            3,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 4,
+        "questIdx": 185,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700023": {
+        "bossEmType": [
+            351,
+            94,
+            118,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 5,
+        "questIdx": 257,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700024": {
+        "bossEmType": [
+            102,
+            81,
+            90,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            1,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 187,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700025": {
+        "bossEmType": [
+            89,
+            20,
+            94,
+            0,
+            0,
+            350,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            15,
+            0
+        ],
+        "mapNo": 5,
+        "questIdx": 210,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            1,
+            0
+        ],
+        "swapSetParam": [
+            12,
+            0
+        ]
+    },
+    "700026": {
+        "bossEmType": [
+            346,
+            1,
+            100,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 188,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700027": {
+        "bossEmType": [
+            32,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 14,
+        "questIdx": 263,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700028": {
+        "bossEmType": [
+            346,
+            94,
+            19,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 2,
+        "questIdx": 189,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700029": {
+        "bossEmType": [
+            47,
+            100,
+            59,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 5,
+        "questIdx": 199,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700030": {
+        "bossEmType": [
+            7,
+            32,
+            77,
+            0,
+            0,
+            118,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            1,
+            14,
+            0,
+            0,
+            15,
+            0
+        ],
+        "mapNo": 2,
+        "questIdx": 201,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            1,
+            0
+        ],
+        "swapSetParam": [
+            12,
+            0
+        ]
+    },
+    "700031": {
+        "bossEmType": [
+            133,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 14,
+        "questIdx": 255,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700032": {
+        "bossEmType": [
+            57,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 14,
+        "questIdx": 268,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700033": {
+        "bossEmType": [
+            1,
+            94,
+            95,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            1,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 2,
+        "questIdx": 212,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700034": {
+        "bossEmType": [
+            95,
+            81,
+            100,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 190,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700035": {
+        "bossEmType": [
+            94,
+            59,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 5,
+        "questIdx": 191,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700036": {
+        "bossEmType": [
+            42,
+            1852,
+            133,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 13,
+        "questIdx": 213,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700037": {
+        "bossEmType": [
+            97,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 14,
+        "questIdx": 270,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700038": {
+        "bossEmType": [
+            349,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 14,
+        "questIdx": 249,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700039": {
+        "bossEmType": [
+            57,
+            100,
+            24,
+            0,
+            0,
+            25,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            1,
+            14,
+            0,
+            0,
+            15,
+            0
+        ],
+        "mapNo": 13,
+        "questIdx": 252,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            1,
+            0
+        ],
+        "swapSetParam": [
+            12,
+            0
+        ]
+    },
+    "700040": {
+        "bossEmType": [
+            89,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 14,
+        "questIdx": 245,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700041": {
+        "bossEmType": [
+            98,
+            3,
+            61,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 4,
+        "questIdx": 218,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700042": {
+        "bossEmType": [
+            4,
+            102,
+            107,
+            0,
+            0,
+            346,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            15,
+            0
+        ],
+        "mapNo": 2,
+        "questIdx": 220,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            1,
+            0
+        ],
+        "swapSetParam": [
+            12,
+            0
+        ]
+    },
+    "700043": {
+        "bossEmType": [
+            100,
+            37,
+            89,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            1,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 192,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700044": {
+        "bossEmType": [
+            59,
+            19,
+            1793,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 222,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700045": {
+        "bossEmType": [
+            60,
+            107,
+            47,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 233,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700046": {
+        "bossEmType": [
+            19,
+            4,
+            7,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 2,
+        "questIdx": 113,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700047": {
+        "bossEmType": [
+            44,
+            62,
+            102,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 2,
+        "questIdx": 234,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700048": {
+        "bossEmType": [
+            134,
+            100,
+            1852,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 13,
+        "questIdx": 237,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700049": {
+        "bossEmType": [
+            92,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 14,
+        "questIdx": 235,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700050": {
+        "bossEmType": [
+            59,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 14,
+        "questIdx": 261,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700051": {
+        "bossEmType": [
+            108,
+            37,
+            20,
+            0,
+            0,
+            134,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            15,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 243,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            1,
+            0
+        ],
+        "swapSetParam": [
+            12,
+            0
+        ]
+    },
+    "700052": {
+        "bossEmType": [
+            19,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 14,
+        "questIdx": 285,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700053": {
+        "bossEmType": [
+            37,
+            25,
+            1852,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 230,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700054": {
+        "bossEmType": [
+            81,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 14,
+        "questIdx": 238,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700055": {
+        "bossEmType": [
+            1,
+            95,
+            37,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 244,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700056": {
+        "bossEmType": [
+            82,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 14,
+        "questIdx": 250,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700057": {
+        "bossEmType": [
+            32,
+            1852,
+            23,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 13,
+        "questIdx": 253,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700058": {
+        "bossEmType": [
+            7,
+            32,
+            4,
+            0,
+            0,
+            23,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            15,
+            0
+        ],
+        "mapNo": 2,
+        "questIdx": 254,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            1,
+            0
+        ],
+        "swapSetParam": [
+            12,
+            0
+        ]
+    },
+    "700059": {
+        "bossEmType": [
+            81,
+            118,
+            82,
+            0,
+            0,
+            23,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            1,
+            14,
+            0,
+            0,
+            15,
+            0
+        ],
+        "mapNo": 12,
+        "questIdx": 262,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            1,
+            0
+        ],
+        "swapSetParam": [
+            12,
+            0
+        ]
+    },
+    "700060": {
+        "bossEmType": [
+            94,
+            89,
+            20,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 5,
+        "questIdx": 68,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700061": {
+        "bossEmType": [
+            95,
+            57,
+            100,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 193,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700062": {
+        "bossEmType": [
+            107,
+            1,
+            3,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 5,
+        "questIdx": 97,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700063": {
+        "bossEmType": [
+            7,
+            95,
+            77,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 2,
+        "questIdx": 71,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700064": {
+        "bossEmType": [
+            37,
+            1852,
+            57,
+            0,
+            0,
+            71,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            1,
+            14,
+            0,
+            0,
+            15,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 72,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            1,
+            0
+        ],
+        "swapSetParam": [
+            12,
+            0
+        ]
+    },
+    "700065": {
+        "bossEmType": [
+            94,
+            89,
+            20,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            1,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 5,
+        "questIdx": 130,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700066": {
+        "bossEmType": [
+            2,
+            92,
+            20,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 5,
+        "questIdx": 177,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700067": {
+        "bossEmType": [
+            351,
+            2,
+            20,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 5,
+        "questIdx": 265,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700068": {
+        "bossEmType": [
+            97,
+            133,
+            32,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            1,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 4,
+        "questIdx": 76,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700069": {
+        "bossEmType": [
+            349,
+            25,
+            32,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 13,
+        "questIdx": 77,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700070": {
+        "bossEmType": [
+            81,
+            82,
+            57,
+            0,
+            0,
+            25,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            15,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 78,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            1,
+            0
+        ],
+        "swapSetParam": [
+            12,
+            0
+        ]
+    },
+    "700071": {
+        "bossEmType": [
+            82,
+            90,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 12,
+        "questIdx": 266,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700072": {
+        "bossEmType": [
+            133,
+            100,
+            37,
+            0,
+            0,
+            23,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            15,
+            0
+        ],
+        "mapNo": 12,
+        "questIdx": 90,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            1,
+            0
+        ],
+        "swapSetParam": [
+            12,
+            0
+        ]
+    },
+    "700073": {
+        "bossEmType": [
+            100,
+            32,
+            4,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 5,
+        "questIdx": 81,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700074": {
+        "bossEmType": [
+            91,
+            1,
+            19,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 12,
+        "questIdx": 84,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700075": {
+        "bossEmType": [
+            100,
+            37,
+            95,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 85,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700076": {
+        "bossEmType": [
+            134,
+            37,
+            109,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 164,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700077": {
+        "bossEmType": [
+            349,
+            133,
+            82,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 4,
+        "questIdx": 267,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700078": {
+        "bossEmType": [
+            82,
+            95,
+            89,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 202,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700079": {
+        "bossEmType": [
+            42,
+            136,
+            1852,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 13,
+        "questIdx": 269,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700080": {
+        "bossEmType": [
+            98,
+            59,
+            92,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 104,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700081": {
+        "bossEmType": [
+            42,
+            134,
+            100,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 13,
+        "questIdx": 194,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700082": {
+        "bossEmType": [
+            59,
+            134,
+            109,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 106,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700083": {
+        "bossEmType": [
+            90,
+            91,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 12,
+        "questIdx": 96,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700084": {
+        "bossEmType": [
+            44,
+            4,
+            94,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            1,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 2,
+        "questIdx": 102,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700085": {
+        "bossEmType": [
+            61,
+            92,
+            54,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 4,
+        "questIdx": 103,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700086": {
+        "bossEmType": [
+            77,
+            25,
+            134,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 13,
+        "questIdx": 248,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700087": {
+        "bossEmType": [
+            81,
+            89,
+            2,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 141,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700088": {
+        "bossEmType": [
+            95,
+            1793,
+            37,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 271,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700089": {
+        "bossEmType": [
+            349,
+            89,
+            98,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 4,
+        "questIdx": 109,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700090": {
+        "bossEmType": [
+            77,
+            102,
+            37,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 272,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700091": {
+        "bossEmType": [
+            60,
+            109,
+            102,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 112,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700092": {
+        "bossEmType": [
+            37,
+            71,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 12,
+        "questIdx": 114,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700093": {
+        "bossEmType": [
+            42,
+            23,
+            72,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 13,
+        "questIdx": 115,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700094": {
+        "bossEmType": [
+            97,
+            3,
+            133,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            1,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 4,
+        "questIdx": 116,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700095": {
+        "bossEmType": [
+            134,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 14,
+        "questIdx": 275,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700096": {
+        "bossEmType": [
+            81,
+            134,
+            25,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 118,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700097": {
+        "bossEmType": [
+            37,
+            71,
+            1852,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 119,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700098": {
+        "bossEmType": [
+            42,
+            350,
+            97,
+            0,
+            0,
+            2,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            1,
+            14,
+            0,
+            0,
+            15,
+            0
+        ],
+        "mapNo": 13,
+        "questIdx": 120,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            1,
+            0
+        ],
+        "swapSetParam": [
+            12,
+            0
+        ]
+    },
+    "700099": {
+        "bossEmType": [
+            42,
+            349,
+            3,
+            0,
+            0,
+            32,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            15,
+            0
+        ],
+        "mapNo": 4,
+        "questIdx": 122,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            1,
+            0
+        ],
+        "swapSetParam": [
+            12,
+            0
+        ]
+    },
+    "700100": {
+        "bossEmType": [
+            97,
+            100,
+            61,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 13,
+        "questIdx": 123,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700101": {
+        "bossEmType": [
+            349,
+            100,
+            42,
+            0,
+            0,
+            350,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            15,
+            0
+        ],
+        "mapNo": 13,
+        "questIdx": 124,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            1,
+            0
+        ],
+        "swapSetParam": [
+            12,
+            0
+        ]
+    },
+    "700102": {
+        "bossEmType": [
+            81,
+            102,
+            23,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 125,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700103": {
+        "bossEmType": [
+            57,
+            118,
+            95,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 126,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700104": {
+        "bossEmType": [
+            37,
+            100,
+            57,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 127,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700105": {
+        "bossEmType": [
+            108,
+            37,
+            134,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 128,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700106": {
+        "bossEmType": [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 14,
+        "questIdx": 284,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700107": {
+        "bossEmType": [
+            93,
+            37,
+            95,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 274,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700108": {
+        "bossEmType": [
+            95,
+            89,
+            91,
+            0,
+            0,
+            133,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            1,
+            14,
+            0,
+            0,
+            15,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 132,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            1,
+            0
+        ],
+        "swapSetParam": [
+            12,
+            0
+        ]
+    },
+    "700109": {
+        "bossEmType": [
+            82,
+            1793,
+            37,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 12,
+        "questIdx": 276,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700110": {
+        "bossEmType": [
+            133,
+            59,
+            514,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 279,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700111": {
+        "bossEmType": [
+            100,
+            3,
+            20,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 5,
+        "questIdx": 137,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700112": {
+        "bossEmType": [
+            3,
+            93,
+            42,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 4,
+        "questIdx": 138,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700113": {
+        "bossEmType": [
+            7,
+            94,
+            23,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 2,
+        "questIdx": 140,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700114": {
+        "bossEmType": [
+            133,
+            2,
+            118,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 1,
+        "questIdx": 280,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700115": {
+        "bossEmType": [
+            98,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 14,
+        "questIdx": 287,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700116": {
+        "bossEmType": [
+            19,
+            1852,
+            59,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            1,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 159,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700117": {
+        "bossEmType": [
+            90,
+            102,
+            107,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 147,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700118": {
+        "bossEmType": [
+            4,
+            62,
+            47,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 5,
+        "questIdx": 148,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700119": {
+        "bossEmType": [
+            57,
+            71,
+            118,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 12,
+        "questIdx": 176,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    },
+    "700120": {
+        "bossEmType": [
+            108,
+            95,
+            134,
+            0,
+            0,
+            0,
+            0
+        ],
+        "bossSetCondition": [
+            1,
+            14,
+            14,
+            0,
+            0,
+            0,
+            0
+        ],
+        "mapNo": 3,
+        "questIdx": 197,
+        "swapExitTime": [
+            0,
+            0
+        ],
+        "swapSetCondition": [
+            0,
+            0
+        ],
+        "swapSetParam": [
+            0,
+            0
+        ]
+    }
+}
