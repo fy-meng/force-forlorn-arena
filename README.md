@@ -24,7 +24,7 @@ The original script is [ForceArenaQuest](https://www.nexusmods.com/monsterhunter
 2. Check the type of quests you would like to change (regular quests, anomaly investigations, or both);
 3. Press either of the three buttons `Arena` / `Infernal Springs` / `Forlorn Arena` to change the corresponding quests to the selected map. Only single-target, hunt, kill or capture quest that is not on a special map (Coral Palace or Yawning Abyss) will be changed;
 4. To restore the original map, press `reset quests` or `reset investigations`. Note that the quests with modified map given after you complete an investigation cannot be restored;
-5. In `Settings`, check `Disable Validity Check` to disable the validity check for anomaly investigations. See [Important Note](## Important Note) for more details;
+5. In `Settings`, check `Disable Validity Check` to disable the validity check for anomaly investigations. See [Important Note](#important-note) for more details;
 6. In `Settings`, check `Auto Change Investigations` to automatically change the map for anomaly investigations to the selected map upon opening up the quest counter.
 
 # 怪物猎人崛起 单怪任务地图修改
@@ -53,5 +53,5 @@ The original script is [ForceArenaQuest](https://www.nexusmods.com/monsterhunter
 2. 选择希望修改的任务类别（普通任务、怪异调查或所有）；
 3. 按 `Arena` / `Infernal Springs` / `Forlorn Arena` 来修改至对应的地图。只会修改单怪的、不在特殊地图（龙宫古城或渊劫地狱）的、狩猎/讨伐/捕获任务；
 4. 按 `reset quests` 和 `reset investigations` 来还原普通任务和怪异调查的原始地图。注意无法还原在完成怪异调查后获得的新的在修改的地图上的任务；
-5. 勾选 `Settings - Disable Validity Check` 来关闭游戏对于怪异调查合法性的检查。详细信息请参阅[重要提示](## 重要提示)；
+5. 勾选 `Settings - Disable Validity Check` 来关闭游戏对于怪异调查合法性的检查。详细信息请参阅[重要提示](#重要提示)；
 6. 勾选 `Settings - Auto Change Investigations` 后，将在打开任务柜台后将所有怪异调查自动修改为当前所设置的地图。
