@@ -18,7 +18,6 @@ local KILL_QUEST_TYPE = 2
 local CAPTURE_QUEST_TYPE = 4
 
 -- Normal Quests
-
 local function getNormalQuestDataList(questman, fieldname)
     local normalQuestData = questman:get_field(fieldname)
     if normalQuestData == nil then return end
@@ -347,7 +346,6 @@ local function load_quest()
 end
 
 -- Anomaly Investigations
-
 local function set_investigations(mapNo)
     local questman = sdk.get_managed_singleton("snow.QuestManager")
     local questData = questman:get_field("_RandomMysteryQuestData")
@@ -394,7 +392,7 @@ local function set_investigations(mapNo)
 end
 
 local function update_investigation_dump()
-    local data = json.load_file("InvestigationDataDump.json")
+    local data = json.load_file("ForceForlornArena/InvestigationDataDump.json")
     if not data then data = {} end
 
     local questman = sdk.get_managed_singleton("snow.QuestManager")
@@ -439,7 +437,7 @@ local function update_investigation_dump()
         end
     end
 
-    json.dump_file("InvestigationDataDump.json", data)
+    json.dump_file("ForceForlornArena/InvestigationDataDump.json", data)
 end
 
 local function load_investigations()
@@ -447,7 +445,7 @@ local function load_investigations()
     local questData = questman:get_field("_RandomMysteryQuestData")
     questData = questData:get_elements()
 
-    local data = json.load_file("InvestigationDataDump.json")
+    local data = json.load_file("ForceForlornArena/InvestigationDataDump.json")
     if not data then return end
 
     for i, quest in ipairs(questData) do
@@ -499,19 +497,36 @@ local function load_investigations()
 end
 
 -- Properties
-
 local questStatus = "default"
 local investigationStatus = "default"
 
 local changeQuests = false
-local changeInvestigations = true
+local changeInvestigations = false
+
+local settings = {
+    disableValidityCheck = true,
+    autoChangeInvestigations = true
+}
+
+local function save_settings()
+    json.dump_file("ForceForlornArena/settings.json", settings)
+end
+
+local function load_settings()
+    local loadedSettings = json.load_file("ForceForlornArena/settings.json")
+    if loadedSettings then
+        settings = loadedSettings
+    end
+end
+
+load_settings()
 
 -- Remove validity checks for anomaly investigations
-sdk.hook(sdk.find_type_definition('snow.quest.nRandomMysteryQuest'):get_method('checkRandomMysteryQuestOrderBan'),
-    function(args)
-    end,
+sdk.hook(
+    sdk.find_type_definition('snow.quest.nRandomMysteryQuest'):get_method('checkRandomMysteryQuestOrderBan'),
+    nil,
     function(retval)
-        if changeInvestigations then
+        if settings.disableValidityCheck then
             return sdk.to_ptr(0)
         else
             return retval
@@ -519,22 +534,48 @@ sdk.hook(sdk.find_type_definition('snow.quest.nRandomMysteryQuest'):get_method('
     end
 )
 
--- GUI
+-- Auto change investigations upon opening up the quest counter
+sdk.hook(
+    sdk.find_type_definition('snow.SnowSingletonBehaviorRoot`1<snow.gui.fsm.questcounter.GuiQuestCounterFsmManager>'):get_method('awake'),
+    function(args)
+        if settings.autoChangeInvestigations then
+            if investigationStatus == "Arena" then
+                log.debug('arena')
+                set_investigations(ARENA_MAP_NO)
+            elseif investigationStatus == "Infernal Springs" then
+                log.debug('infernal')
+                set_investigations(INFERNAL_MAP_NO)
+            elseif investigationStatus == "Forlorn Arena" then
+                log.debug('forlorn')
+                set_investigations(FORLORN_MAP_NO)
+            end
+        end
+    end,
+    nil
+)
 
+-- GUI
 re.on_draw_ui(
     function()
         if imgui.tree_node(name) then
+
+            if imgui.tree_node("Settings") then
+                _, settings.disableValidityCheck = imgui.checkbox("Disable Validity Check", settings.disableValidityCheck)
+                _, settings.autoChangeInvestigations = imgui.checkbox("Auto Change Investigations", settings.autoChangeInvestigations)
+                imgui.tree_pop()
+            end
+
             if string.len(questStatus) > 0 then
                 imgui.text("Regular Quests: " .. questStatus)
             end
             imgui.same_line()
             if imgui.button("reset quests") then
-                cfg_QuestData = json.load_file("QuestDataDump.json")
+                cfg_QuestData = json.load_file("ForceForlornArena/QuestDataDump.json")
                 if not cfg_QuestData then
                     cfg_QuestData = {}
                     cfg_QuestData.read_only_quest_data = {}
                     dump_quest()
-                    json.dump_file("QuestDataDump.json", cfg_QuestData)
+                    json.dump_file("ForceForlornArena/QuestDataDump.json", cfg_QuestData)
                 end
                 load_quest()
                 questStatus = "default"
@@ -552,7 +593,6 @@ re.on_draw_ui(
             _, changeQuests = imgui.checkbox("Change Regular Quests", changeQuests)
             imgui.same_line()
             _, changeInvestigations = imgui.checkbox("Change Investigations", changeInvestigations)
-
 
             if imgui.button("Arena") then
                 if changeQuests then
@@ -591,5 +631,11 @@ re.on_draw_ui(
             end
             imgui.tree_pop()
         end 
+    end
+)
+
+re.on_config_save(
+    function()
+        save_settings()
     end
 )
