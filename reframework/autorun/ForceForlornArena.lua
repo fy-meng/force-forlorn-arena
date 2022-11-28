@@ -137,6 +137,8 @@ local function dump_quest()
     dump_quest_data(getNormalQuestDataList(questman, "_normalQuestData"), getNormalQuestDataForEnemyList(questman, "_normalQuestDataForEnemy"))
     dump_quest_data(getNormalQuestDataList(questman, "_DlQuestData"), getNormalQuestDataForEnemyList(questman, "_DlQuestDataForEnemy"))
     dump_quest_data(getNormalQuestDataList(questman, "_nomalQuestDataKohaku"), getNormalQuestDataForEnemyList(questman, "_normalQuestDataForEnemyKohaku"))
+
+    json.dump_file("ForceForlornArena/QuestDataDump.json", questDump)
 end
 
 local function checkQuest(quest)
