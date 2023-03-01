@@ -648,7 +648,7 @@ sdk.hook(
     end
 )
 
--- Auto change investigations and fix init set data upon opening up the quest counter
+-- Auto change investigations upon opening up the quest counter
 sdk.hook(
     sdk.find_type_definition('snow.SnowSingletonBehaviorRoot`1<snow.gui.fsm.questcounter.GuiQuestCounterFsmManager>'):get_method('awake'),
     function(args)
@@ -664,13 +664,18 @@ sdk.hook(
                 set_investigations(FORLORN_MAP_NO)
             end
         end
+    end
+)
 
+-- Fix init set data upon entering the village for the first time
+sdk.hook(
+    sdk.find_type_definition("snow.gui.GuiManager"):get_method("notifyReturnInVillage"), 
+    function(args)
         if not isInitSetDataFixed then
             fix_init_set_data()
             isInitSetDataFixed = true
         end
-    end,
-    nil
+    end
 )
 
 -- GUI
