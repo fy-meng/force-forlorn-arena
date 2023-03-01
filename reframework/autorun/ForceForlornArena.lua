@@ -1,12 +1,17 @@
 -- Credit to dtlnor: https://www.nexusmods.com/monsterhunterrise/mods/265
 
-local version = 1.1
+local version = 1.2
 local name = "ForceForlornArena v" .. tostring(version)
 
 -- Target Maps
 local INFERNAL_MAP_NO = 9
 local ARENA_MAP_NO = 10
 local FORLORN_MAP_NO = 14
+local TAGET_MAPS = {
+    INFERNAL_MAP_NO,
+    ARENA_MAP_NO,
+    FORLORN_MAP_NO
+}
 
 -- Ignore Maps
 local PALACE_MAP_NO = 11
@@ -16,6 +21,16 @@ local ABYSS_MAP_NO = 15
 local HUNT_QUEST_TYPE = 1
 local KILL_QUEST_TYPE = 2
 local CAPTURE_QUEST_TYPE = 4
+
+-- Related to enemy init sets
+local ENEMY_COUNT = 116
+local IGNORE_ENEMIES = {
+    [35] = true,  -- Wind Serpent Ibushi
+    [38] = true,  -- Thunder Serpent Narwa
+    [39] = true,  -- Narwa the Allmother
+    [46] = true,  -- Giant Mechanized Toa
+    [96] = true   -- Gaismagorm
+}
 
 -- Load Data Dumps
 local questDump = json.load_file("ForceForlornArena/QuestDataDump.json")
@@ -500,6 +515,105 @@ local function load_investigations()
     end
 end
 
+-- Fix Enemy Init Set
+local function debug_boss_init_set_data()
+    local enemyman = sdk.get_managed_singleton("snow.enemy.EnemyManager")
+    local initSetData = enemyman:get_field("_EnemyBossInitLotData")
+
+    for i=0,(ENEMY_COUNT - 1) do
+        local enemy = initSetData[i]
+        if enemy ~= nil then
+            local enemyType = enemy:get_field("_EnemyType")
+            local stageInfoList = enemy:get_field("_StageInfoList")
+            local len = stageInfoList:call("get_Count()")
+            log.debug(string.format('[ForceForlornArena] enemy = %d, num maps = %d', enemyType, len))
+            for j=0, len - 1 do
+                local stageInfo = stageInfoList[j]
+
+                if stageInfo == nil then
+                    log.debug("[ForceForlornArena]     map = nil")
+                    break
+                end
+
+                local mapNo = stageInfo:get_field("_MapType")
+                local setInfoList = stageInfo:get_field("_SetInfoList")
+                local initSets = {}
+                for k=0,setInfoList:call("get_Count()") - 1 do
+                    local setInfo = setInfoList[k]
+                    local setName = setInfo:get_field("_SetName")
+                    table.insert(initSets, string.format("\"%s\"", setName))
+                end
+                log.debug(string.format("[ForceForlornArena]     map = %s, initSets = {%s}", tostring(mapNo), table.concat(initSets, ", ")))
+            end
+        end
+    end
+end
+
+local function fetch_map_init_set_data(initSetData, targetMapNo)
+    -- Fetch the first seen init set data for a given map
+    for i=0,(ENEMY_COUNT - 1) do 
+        local enemy = initSetData[i]
+        if enemy ~= nil then
+            local stageInfoList = enemy:get_field("_StageInfoList")
+            for j=0, stageInfoList:call("get_Count()") - 1 do 
+                local stageInfo = stageInfoList[j]
+                local mapNo = stageInfo:get_field("_MapType")
+                if mapNo == targetMapNo then
+                    return stageInfo
+                end
+            end
+        end
+    end
+end
+
+local function fix_init_set_data()
+    local enemyman = sdk.get_managed_singleton("snow.enemy.EnemyManager")
+    local initSetData = enemyman:get_field("_EnemyBossInitLotData")
+
+    for i=0,(ENEMY_COUNT - 1) do 
+        local enemy = initSetData[i]
+        if enemy ~= nil and IGNORE_ENEMIES[enemy:get_field("_EnemyType")] ~= true then
+            -- fetch stageInfoList for a certain enemy
+            local managedStageInfoList = enemy:get_field("_StageInfoList")
+            local stageInfoList = {}
+            for j=0, managedStageInfoList:call("get_Count") - 1 do 
+                local stageInfo = managedStageInfoList[j]
+                local mapNo = stageInfo:get_field("_MapType")
+                stageInfoList[mapNo] = stageInfo
+            end
+
+            -- check if this enemy has init data for all target maps
+            local modified = false
+            for _, mapNo in ipairs(TAGET_MAPS) do
+                if stageInfoList[mapNo] == nil then
+                    -- log.debug("[ForceForlornArena] map = " .. tostring(mapNo))
+                    stageInfo = fetch_map_init_set_data(initSetData, mapNo)
+                    managedStageInfoList:call("Add(snow.enemy.EnemyBossInitSetData.StageInfo)", stageInfo)
+                    modified = true
+                end
+            end
+
+            -- debug print new list
+            if modified then
+                -- log.debug(string.format("[ForceForlornArena] fix init set data for enemy = %d, new list is", enemy:get_field("_EnemyType")))
+                -- log.debug('[ForceForlornArena]     num maps = ' .. tostring(stageInfoList:get_field("get_Count()")))
+                for j=0, managedStageInfoList:call("get_Count()") - 1 do
+                    local stageInfo = managedStageInfoList[j]
+                    local mapNo = stageInfo:get_field("_MapType")
+                    local setInfoList = stageInfo:get_field("_SetInfoList")
+                    local initSets = {}
+                    for k=0,setInfoList:call("get_Count()") - 1 do
+                        local setInfo = setInfoList[k]
+                        local setName = setInfo:get_field("_SetName")
+                        table.insert(initSets, setName)
+                    end
+                    -- log.debug(string.format("[ForceForlornArena]     map = %s, initSets = {%s}", tostring(mapNo), table.concat(initSets, ", ")))
+                end
+            end
+        end
+    end
+end
+
 -- Properties
 local questStatus = "default"
 local investigationStatus = "default"
@@ -507,6 +621,8 @@ local investigationStatus = "default"
 local changeQuests = false
 local changeInvestigations = false
 local questLv = 200
+
+local isInitSetDataFixed = false
 
 local settings = {
     disableValidityCheck = true,
@@ -539,7 +655,7 @@ sdk.hook(
     end
 )
 
--- Auto change investigations upon opening up the quest counter
+-- Auto change investigations and fix init set data upon opening up the quest counter
 sdk.hook(
     sdk.find_type_definition('snow.SnowSingletonBehaviorRoot`1<snow.gui.fsm.questcounter.GuiQuestCounterFsmManager>'):get_method('awake'),
     function(args)
@@ -554,6 +670,11 @@ sdk.hook(
                 -- log.debug('[ForceForlornAreana] setting to forlorn')
                 set_investigations(FORLORN_MAP_NO)
             end
+        end
+
+        if not isInitSetDataFixed then
+            fix_init_set_data()
+            isInitSetDataFixed = true
         end
     end,
     nil
@@ -637,6 +758,10 @@ re.on_draw_ui(
                 set_investigations_lv(questLv)
             end
             imgui.tree_pop()
+
+            if imgui.button("test") then
+                test()
+            end
         end 
     end
 )
