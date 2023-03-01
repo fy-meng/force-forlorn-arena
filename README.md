@@ -28,6 +28,16 @@ The original script is [ForceArenaQuest](https://www.nexusmods.com/monsterhunter
 6. In `Settings`, check `Disable Validity Check` to disable the validity check for anomaly investigations. See [Important Note](#important-note) for more details;
 7. In `Settings`, check `Auto Change Investigations` to automatically change the map for anomaly investigations to the selected map upon opening up the quest counter.
 
+## Known Issues
+
+1. Sometimes small monsters will spawn in the arena for regular quests;
+2. If change the map of Risen Chameleos, when the fog rises, the map will become literally pitch black. This will probably never get fixed unless the Capcom add Risen Chameleos to the arena maps.
+
+## Update Logs
+
+- (v1.1, 2022.11.27) Add an investigation level slider and fix normal quest reset bug;
+- (v1.2, 2023.02.28) Fix the problem where spawning Scorned Magnamalo in Forlorn Arena will crash the game.
+
 # 怪物猎人崛起 单怪任务地图修改
 
 可以将单怪任务和怪异调查的地图修改为斗技场/狱泉乡/塔之秘境的脚本。
@@ -52,8 +62,18 @@ The original script is [ForceArenaQuest](https://www.nexusmods.com/monsterhunter
 
 1. 在游戏中打开 REFramework 菜单（默认按键为 `insert`）；
 2. 选择希望修改的任务类别（普通任务、怪异调查或所有）；
-3. 按 `Arena` / `Infernal Springs` / `Forlorn Arena` 来修改至对应的地图。只会修改单怪的、不在特殊地图（龙宫古城或渊劫地狱）的、狩猎/讨伐/捕获任务；
+3. 按 `Arena` / `Infernal Springs` / `Forlorn Arena` 来修改至对应的地图。只会修改单怪的、不在特殊地图（龙宫古城或渊劫地狱）的狩猎/讨伐/捕获任务；
 4. 按 `reset quests` 和 `reset investigations` 来还原普通任务和怪异调查的原始地图。注意无法还原在完成怪异调查后获得的新的在修改的地图上的任务；
 5. 如果想修改所有 _单怪_ 调查的等级，可以在下方的滑条里输入一个1-200间的等级并按 `Set Level`. 注意不要设置超过自己怪异研究等级的任务等级，否则可能会导致任务无法承接；
 6. 勾选 `Settings - Disable Validity Check` 来关闭游戏对于怪异调查合法性的检查。详细信息请参阅[重要提示](#重要提示)；
 7. 勾选 `Settings - Auto Change Investigations` 后，将在打开任务柜台后将所有怪异调查自动修改为当前所设置的地图。
+
+## 已知问题
+
+1. 对于普通任务，有时小怪会刷在古塔/斗技场里；
+2. 如果修改傀异克服霞龙的地图，在霞龙开雾之后整个地图会变成伸手不见五指的漆黑。除非卡普空更新了在这几张斗技场地图里的傀异克服霞龙任务，只靠我们应该无法修复这个问题。
+
+## 更新日志
+
+- (v1.1, 2022.11.27) 更新了修改全部怪异调查等级的滑条，并修复了普通任务无法还原地图的问题;
+- (v1.2, 2023.02.28) 修复了如果将嗟怨震天怨虎龙的地图修改为塔之秘境，游戏崩溃的问题。
