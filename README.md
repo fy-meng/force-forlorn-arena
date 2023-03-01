@@ -35,8 +35,8 @@ The original script is [ForceArenaQuest](https://www.nexusmods.com/monsterhunter
 
 ## Update Logs
 
-- (v1.1, 2022.11.27) Add an investigation level slider and fix normal quest reset bug;
 - (v1.2, 2023.02.28) Fix the problem where spawning Scorned Magnamalo in Forlorn Arena will crash the game.
+- (v1.1, 2022.11.27) Add an investigation level slider and fix normal quest reset bug.
 
 # 怪物猎人崛起 单怪任务地图修改
 
@@ -75,5 +75,5 @@ The original script is [ForceArenaQuest](https://www.nexusmods.com/monsterhunter
 
 ## 更新日志
 
-- (v1.1, 2022.11.27) 更新了修改全部怪异调查等级的滑条，并修复了普通任务无法还原地图的问题;
 - (v1.2, 2023.02.28) 修复了如果将嗟怨震天怨虎龙的地图修改为塔之秘境，游戏崩溃的问题。
+- (v1.1, 2022.11.27) 更新了修改全部怪异调查等级的滑条，并修复了普通任务无法还原地图的问题。
