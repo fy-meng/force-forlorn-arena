@@ -76,7 +76,7 @@ local function dump_quest_data(normalQuestData_array, normalQuestDataForEnemy_ar
             --log.debug("lua:log:"..tostring(value))
 
             local InitSetName = quest:get_field("_InitSetName")
-            local value = InitSetName:call("GetValue(System.Int32)", 0)
+            local value = InitSetName[0]
             value = value:call("Substring(System.Int32)", 0)
             questDump[tostring(QuestNo)].InitSetName_0 = value
         end
@@ -171,8 +171,8 @@ local function checkQuest(quest)
 
     -- target number is only one
     local tgtNum = quest:get_field("_TgtNum")
-    local tgtNum0 = tgtNum:call("GetValue(System.Int32)", 0):get_field("mValue")
-    local tgtNum1 = tgtNum:call("GetValue(System.Int32)", 1):get_field("mValue")
+    local tgtNum0 = tgtNum[0]:get_field("mValue")
+    local tgtNum1 = tgtNum[1]:get_field("mValue")
     return tgtNum0 == 1 and tgtNum1 == 0
 end
 
@@ -189,12 +189,12 @@ local function set_quest_data(mapNo, normalQuestData_array, normalQuestDataForEn
                 local RouteNo = quest:get_field("_RouteNo")
                 local value = sdk.create_instance("System.Byte")
                 value:set_field("mValue", 10)
-                RouteNo:call("SetValue(System.Object, System.Int32)", value, 0)
+                RouteNo[0] = value
 
                 local InitSetName = quest:get_field("_InitSetName")
                 local initSet = "メイン"
                 if mapNo == ARENA_NO then initSet = "A" end
-                InitSetName:call("SetValue(System.Object, System.Int32)", initSet, 0)
+                InitSetName[0] = initSet
                 quest:set_field("_InitSetName", InitSetName)
             end
         end
@@ -211,41 +211,42 @@ local function set_quest_data(mapNo, normalQuestData_array, normalQuestDataForEn
                 local BossEmType = quest:get_field("_BossEmType")
                 local value = sdk.create_instance("snow.enemy.EnemyDef.EmTypes")
                 value:set_field("value__", 0)
-                BossEmType:call("SetValue(System.Object, System.Int32)", value, 1)
-                BossEmType:call("SetValue(System.Object, System.Int32)", value, 2)
-                BossEmType:call("SetValue(System.Object, System.Int32)", value, 3)
-                BossEmType:call("SetValue(System.Object, System.Int32)", value, 4)
-                BossEmType:call("SetValue(System.Object, System.Int32)", value, 5)
-                BossEmType:call("SetValue(System.Object, System.Int32)", value, 6)
+                for j=1,6 do
+                    BossEmType[j] = value
+                end
 
                 local SwapEmRate = quest:get_field("_SwapEmRate")
                 local value = sdk.create_instance("System.Byte")
                 value:set_field("mValue", 0)
-                SwapEmRate:call("SetValue(System.Object, System.Int32)", value, 0)
-                SwapEmRate:call("SetValue(System.Object, System.Int32)", value, 1)
+                for j=0,1 do
+                    SwapEmRate[j] = value
+                end
 
                 local BossSetCondition = quest:get_field("_BossSetCondition")
                 local value = sdk.create_instance("snow.QuestManager.BossSetCondition")
                 value:set_field("value__", 1)
-                BossSetCondition:call("SetValue(System.Object, System.Int32)", value, 0)
+                BossSetCondition[0] = value
 
                 local SwapSetCondition = quest:get_field("_SwapSetCondition")
                 value = sdk.create_instance("snow.QuestManager.SwapSetCondition")
                 value:set_field("value__", 0)
-                SwapSetCondition:call("SetValue(System.Object, System.Int32)", value, 0)
-                SwapSetCondition:call("SetValue(System.Object, System.Int32)", value, 1)
+                for j=0,1 do
+                    SwapSetCondition[j] = value
+                end
 
                 local SwapSetParam = quest:get_field("_SwapSetParam")
                 local value = sdk.create_instance("System.Byte")
                 value:set_field("mValue", 0)
-                SwapSetParam:call("SetValue(System.Byte, System.Int32)", value, 0)
-                SwapSetParam:call("SetValue(System.Byte, System.Int32)", value, 1)
+                for j=0,1 do
+                    SwapSetParam[j] = value
+                end
 
                 local SwapExitTime = quest:get_field("_SwapExitTime")
                 local value = sdk.create_instance("System.Byte")
                 value:set_field("mValue", 0)
-                SwapExitTime:call("SetValue(System.Byte, System.Int32)", value, 0)
-                SwapExitTime:call("SetValue(System.Byte, System.Int32)", value, 1)
+                for j=0,1 do
+                    SwapExitTime[j] = value
+                end
             end
         end
     end
@@ -273,11 +274,11 @@ local function load_quest_data(normalQuestData_array, normalQuestDataForEnemy_ar
                 local RouteNo = quest:get_field("_RouteNo")
                 local value = sdk.create_instance("System.Byte")
                 value:set_field("mValue", questDump[tostring(QuestNo)].RouteNo_0)
-                RouteNo:call("SetValue(System.Object, System.Int32)", value, 0)
+                RouteNo[0] = value
 
                 local InitSetName = quest:get_field("_InitSetName")
                 local value = sdk.create_managed_string(questDump[tostring(QuestNo)].InitSetName_0)
-                InitSetName:call("SetValue(System.Object, System.Int32)", value, 0)
+                InitSetName[0] = value
                 quest:set_field("_InitSetName", InitSetName)
             end
         end
@@ -294,51 +295,43 @@ local function load_quest_data(normalQuestData_array, normalQuestDataForEnemy_ar
 
                 local BossEmType = quest:get_field("_BossEmType")
                 local value = sdk.create_instance("snow.enemy.EnemyDef.EmTypes")
-                value:set_field("value__", questDump[tostring(QuestNo)].BossEmType["2"])
-                BossEmType:call("SetValue(System.Object, System.Int32)", value, 1)
-                value:set_field("value__", questDump[tostring(QuestNo)].BossEmType["3"])
-                BossEmType:call("SetValue(System.Object, System.Int32)", value, 2)
-                value:set_field("value__", questDump[tostring(QuestNo)].BossEmType["4"])
-                BossEmType:call("SetValue(System.Object, System.Int32)", value, 3)
-                value:set_field("value__", questDump[tostring(QuestNo)].BossEmType["5"])
-                BossEmType:call("SetValue(System.Object, System.Int32)", value, 4)
-                value:set_field("value__", questDump[tostring(QuestNo)].BossEmType["6"])
-                BossEmType:call("SetValue(System.Object, System.Int32)", value, 5)
-                value:set_field("value__", questDump[tostring(QuestNo)].BossEmType["7"])
-                BossEmType:call("SetValue(System.Object, System.Int32)", value, 6)
+                for j=1,6 do
+                    value:set_field("value__", questDump[tostring(QuestNo)].BossEmType[tostring(j + 1)])
+                    BossEmType[j] = value
+                end
 
                 local SwapEmRate = quest:get_field("_SwapEmRate")
                 local value = sdk.create_instance("System.Byte")
-                value:set_field("mValue", questDump[tostring(QuestNo)].SwapEmRate["1"])
-                SwapEmRate:call("SetValue(System.Object, System.Int32)", value, 0)
-                value:set_field("mValue", questDump[tostring(QuestNo)].SwapEmRate["2"])
-                SwapEmRate:call("SetValue(System.Object, System.Int32)", value, 1)
+                for j=0,1 do
+                    value:set_field("mValue", questDump[tostring(QuestNo)].SwapEmRate[tostring(j + 1)])
+                    SwapEmRate[j] = value
+                end
 
                 local BossSetCondition = quest:get_field("_BossSetCondition")
                 local value = sdk.create_instance("snow.QuestManager.BossSetCondition")
                 value:set_field("value__", questDump[tostring(QuestNo)].BossSetCondition["1"])
-                BossSetCondition:call("SetValue(System.Object, System.Int32)", value, 0)
+                BossSetCondition[0] = value
 
                 local SwapSetCondition = quest:get_field("_SwapSetCondition")
                 value = sdk.create_instance("snow.QuestManager.SwapSetCondition")
-                value:set_field("value__", questDump[tostring(QuestNo)].SwapSetCondition["1"])
-                SwapSetCondition:call("SetValue(System.Object, System.Int32)", value, 0)
-                value:set_field("value__", questDump[tostring(QuestNo)].SwapSetCondition["2"])
-                SwapSetCondition:call("SetValue(System.Object, System.Int32)", value, 1)
+                for j=0,1 do
+                    value:set_field("value__", questDump[tostring(QuestNo)].SwapSetCondition[tostring(j + 1)])
+                    SwapSetCondition[j] = value
+                end
 
                 local SwapSetParam = quest:get_field("_SwapSetParam")
                 local value = sdk.create_instance("System.Byte")
-                value:set_field("mValue", questDump[tostring(QuestNo)].SwapSetParam["1"])
-                SwapSetParam:call("SetValue(System.Byte, System.Int32)", value, 0)
-                value:set_field("mValue", questDump[tostring(QuestNo)].SwapSetParam["2"])
-                SwapSetParam:call("SetValue(System.Byte, System.Int32)", value, 1)
+                for j=0,1 do
+                    value:set_field("mValue", questDump[tostring(QuestNo)].SwapSetParam[tostring(j + 1)])
+                    SwapSetParam[j] = value
+                end
 
                 local SwapExitTime = quest:get_field("_SwapExitTime")
                 local value = sdk.create_instance("System.Byte")
-                value:set_field("mValue", questDump[tostring(QuestNo)].SwapExitTime["1"])
-                SwapExitTime:call("SetValue(System.Byte, System.Int32)", value, 0)
-                value:set_field("mValue", questDump[tostring(QuestNo)].SwapExitTime["2"])
-                SwapExitTime:call("SetValue(System.Byte, System.Int32)", value, 1)
+                for j=0,1 do
+                    value:set_field("mValue", questDump[tostring(QuestNo)].SwapExitTime[tostring(j + 1)])
+                    SwapExitTime[j] = value
+                end
             end
         end
     end
@@ -369,32 +362,32 @@ local function set_investigations(mapNo)
             local bossEmType = quest:get_field("_BossEmType")
             local value = sdk.create_instance("snow.enemy.EnemyDef.EmTypes")
             value:set_field("value__", 0)
-            for j = 1, 6 do
-                bossEmType:call("SetValue(System.Object, System.Int32)", value, j)
+            for j = 1,6 do
+                bossEmType[j] = value
             end
 
             local bossSetCondition = quest:get_field("_BossSetCondition")
             local value = sdk.create_instance("snow.QuestManager.BossSetCondition")
             value:set_field("value__", 1)
-            bossSetCondition:call("SetValue(System.Object, System.Int32)", value, 0)
+            bossSetCondition[0] = value
 
             local swapSetCondition = quest:get_field("_SwapSetCondition")
             value = sdk.create_instance("snow.QuestManager.SwapSetCondition")
             value:set_field("value__", 0)
-            swapSetCondition:call("SetValue(System.Object, System.Int32)", value, 0)
-            swapSetCondition:call("SetValue(System.Object, System.Int32)", value, 1)
+            swapSetCondition[0] = value
+            swapSetCondition[0] = value
 
             local swapSetParam = quest:get_field("_SwapSetParam")
             local value = sdk.create_instance("System.Byte")
             value:set_field("mValue", 0)
-            swapSetParam:call("SetValue(System.Byte, System.Int32)", value, 0)
-            swapSetParam:call("SetValue(System.Byte, System.Int32)", value, 1)
+            swapSetParam[0] = value
+            swapSetParam[0] = value
 
             local swapExitTime = quest:get_field("_SwapExitTime")
             local value = sdk.create_instance("System.Byte")
             value:set_field("mValue", 0)
-            swapExitTime:call("SetValue(System.Byte, System.Int32)", value, 0)
-            swapExitTime:call("SetValue(System.Byte, System.Int32)", value, 1)
+            swapExitTime[0] = value
+            swapExitTime[0] = value
         end
     end
 end
@@ -481,35 +474,35 @@ local function load_investigations()
             local value = sdk.create_instance("snow.enemy.EnemyDef.EmTypes")
             for j, item in ipairs(investigationDump[questNo].bossEmType) do
                 value:set_field("value__", item)
-                bossEmType:call("SetValue(System.Object, System.Int32)", value, j - 1)
+                bossEmType[j - 1] = value
             end
 
             local bossSetCondition = quest:get_field("_BossSetCondition")
             local value = sdk.create_instance("snow.QuestManager.BossSetCondition")
             for j, item in ipairs(investigationDump[questNo].bossSetCondition) do
                 value:set_field("value__", item)
-                bossSetCondition:call("SetValue(System.Object, System.Int32)", value, j - 1)
+                bossSetCondition[j - 1] = value
             end
 
             local swapSetCondition = quest:get_field("_SwapSetCondition")
             value = sdk.create_instance("snow.QuestManager.SwapSetCondition")
             for j, item in ipairs(investigationDump[questNo].swapSetCondition) do
                 value:set_field("value__", item)
-                swapSetCondition:call("SetValue(System.Object, System.Int32)", value, j - 1)
+                swapSetCondition[j - 1] = value
             end
 
             local swapSetParam = quest:get_field("_SwapSetParam")
             local value = sdk.create_instance("System.Byte")
             for j, item in ipairs(investigationDump[questNo].swapSetParam) do
                 value:set_field("mValue", item)
-                swapSetParam:call("SetValue(System.Object, System.Int32)", value, j - 1)
+                swapSetParam[j - 1]  = value
             end
 
             local swapExitTime = quest:get_field("_SwapExitTime")
             local value = sdk.create_instance("System.Byte")
             for j, item in ipairs(investigationDump[questNo].swapExitTime) do
                 value:set_field("mValue", item)
-                swapExitTime:call("SetValue(System.Object, System.Int32)", value, j - 1)
+                swapExitTime[j - 1]  = value
             end
         end 
     end
@@ -620,7 +613,7 @@ local investigationStatus = "default"
 
 local changeQuests = false
 local changeInvestigations = false
-local questLv = 200
+local questLv = 220
 
 local isInitSetDataFixed = false
 
@@ -758,10 +751,6 @@ re.on_draw_ui(
                 set_investigations_lv(questLv)
             end
             imgui.tree_pop()
-
-            if imgui.button("test") then
-                test()
-            end
         end 
     end
 )
